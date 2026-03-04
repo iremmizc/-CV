@@ -14,14 +14,14 @@
     --text-primary: #f0f0f0;
     --text-secondary: #a0a0a0;
     --text-muted: #666666;
-    --accent-1: #c23c3c;
-    --accent-2: #d45050;
-    --accent-3: #b03030;
-    --gradient-primary: linear-gradient(135deg, #c23c3c, #d45050);
-    --gradient-secondary: linear-gradient(135deg, #b03030, #c23c3c);
-    --gradient-hero: linear-gradient(135deg, #c23c3c 0%, #d45050 50%, #b03030 100%);
+    --accent-1: #999999;
+    --accent-2: #b0b0b0;
+    --accent-3: #888888;
+    --gradient-primary: linear-gradient(135deg, #999999, #b0b0b0);
+    --gradient-secondary: linear-gradient(135deg, #888888, #999999);
+    --gradient-hero: linear-gradient(135deg, #999999 0%, #b0b0b0 50%, #888888 100%);
     --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
-    --shadow-glow: 0 0 25px rgba(194, 60, 60, 0.08);
+    --shadow-glow: 0 0 25px rgba(150, 150, 150, 0.06);
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 20px;
@@ -345,12 +345,12 @@ img {
 .btn-primary {
     background: var(--gradient-primary);
     color: white;
-    box-shadow: 0 4px 15px rgba(194, 60, 60, 0.15);
+    box-shadow: 0 4px 15px rgba(150, 150, 150, 0.15);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(194, 60, 60, 0.2);
+    box-shadow: 0 6px 20px rgba(150, 150, 150, 0.2);
 }
 
 .btn-outline {
@@ -396,7 +396,7 @@ img {
     color: var(--accent-1);
     border-color: var(--accent-1);
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(194, 60, 60, 0.1);
+    box-shadow: 0 4px 12px rgba(150, 150, 150, 0.1);
 }
 
 /* === Hero Image === */
@@ -414,20 +414,20 @@ img {
     border-radius: 50%;
     position: relative;
     z-index: 2;
-    border: 3px solid rgba(194, 60, 60, 0.2);
+    border: 3px solid rgba(150, 150, 150, 0.2);
 }
 
 .hero-image-ring {
     position: absolute;
     inset: -15px;
     border-radius: 50%;
-    border: 2px solid rgba(194, 60, 60, 0.1);
+    border: 2px solid rgba(150, 150, 150, 0.1);
     animation: pulse-ring 3s ease-in-out infinite;
 }
 
 .ring-2 {
     inset: -30px;
-    border-color: rgba(212, 80, 80, 0.08);
+    border-color: rgba(170, 170, 170, 0.08);
     animation-delay: 1.5s;
 }
 
@@ -574,7 +574,7 @@ img {
 
 .info-card:hover {
     background: var(--bg-card-hover);
-    border-color: rgba(194, 60, 60, 0.15);
+    border-color: rgba(150, 150, 150, 0.15);
     transform: translateX(6px);
 }
 
@@ -628,7 +628,7 @@ img {
 
 .skill-category:hover {
     background: var(--bg-card-hover);
-    border-color: rgba(194, 60, 60, 0.15);
+    border-color: rgba(150, 150, 150, 0.15);
     transform: translateY(-4px);
     box-shadow: var(--shadow-glow);
 }
@@ -664,8 +664,8 @@ img {
     align-items: center;
     gap: 6px;
     padding: 8px 14px;
-    background: rgba(194, 60, 60, 0.06);
-    border: 1px solid rgba(194, 60, 60, 0.1);
+    background: rgba(150, 150, 150, 0.06);
+    border: 1px solid rgba(150, 150, 150, 0.1);
     border-radius: var(--radius-sm);
     font-size: 0.85rem;
     font-weight: 500;
@@ -674,8 +674,8 @@ img {
 }
 
 .skill-tag:hover {
-    background: rgba(194, 60, 60, 0.1);
-    border-color: rgba(194, 60, 60, 0.2);
+    background: rgba(150, 150, 150, 0.1);
+    border-color: rgba(150, 150, 150, 0.2);
     transform: translateY(-2px);
 }
 
@@ -715,7 +715,7 @@ img {
 
 .project-card:hover {
     background: var(--bg-card-hover);
-    border-color: rgba(194, 60, 60, 0.15);
+    border-color: rgba(150, 150, 150, 0.15);
     transform: translateY(-6px);
     box-shadow: var(--shadow-glow);
 }
@@ -745,8 +745,8 @@ img {
 
 .project-badge {
     padding: 4px 12px;
-    background: rgba(194, 60, 60, 0.08);
-    border: 1px solid rgba(194, 60, 60, 0.15);
+    background: rgba(150, 150, 150, 0.08);
+    border: 1px solid rgba(150, 150, 150, 0.15);
     border-radius: 100px;
     font-size: 0.78rem;
     font-weight: 600;
@@ -840,7 +840,7 @@ img {
 
 .timeline-content:hover {
     background: var(--bg-card-hover);
-    border-color: rgba(194, 60, 60, 0.15);
+    border-color: rgba(150, 150, 150, 0.15);
     transform: translateX(6px);
 }
 
@@ -860,8 +860,8 @@ img {
 
 .timeline-date {
     padding: 4px 12px;
-    background: rgba(194, 60, 60, 0.08);
-    border: 1px solid rgba(194, 60, 60, 0.15);
+    background: rgba(150, 150, 150, 0.08);
+    border: 1px solid rgba(150, 150, 150, 0.15);
     border-radius: 100px;
     font-size: 0.78rem;
     font-weight: 600;
